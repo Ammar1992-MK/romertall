@@ -5,7 +5,7 @@ public class main {
         main main = new main();
 
         public static String toRoman(int number) {
-            String[] thousands = {"", "M", "MM"};
+            String[] thousands = {"", "M", "MM", "MMM"};
             String[] hundreds = {"","C","CC","CCC","CD", "D", "DC", "DCC", "DCCC", "CD" };
             String[] tens = {"", "X", "XX", "XXX", "XL", "L", "LX", "LXX", "LXXX", "XC"};
             String[] units = {"","I","II","III","IV","V", "VI", "VII", "VIII", "IX"};
