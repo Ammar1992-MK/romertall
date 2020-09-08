@@ -33,9 +33,4 @@ public class romanNumberTest {
 
         assertEquals("MCDXCIX", main.toRoman(1999));
     }
-    @Test
-    void shouldReturnMMM(){
-
-        assertEquals("MMM", main.toRoman(3000));
-    }
 }
